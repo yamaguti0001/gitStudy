@@ -1,0 +1,38 @@
+/* CSS for Sample11 component */
+dl[b-54d67tl5f7] {
+}
+
+dl dt[b-54d67tl5f7] {
+        float: left;
+}
+
+dl dd[b-54d67tl5f7] {
+        margin-left: 150px;
+}
+
+[b-54d67tl5f7] table {
+    min-width: 100%;
+}
+
+[b-54d67tl5f7] thead {
+    background-color: #DDFFDD;
+}
+
+[b-54d67tl5f7] tr {
+    border-botton: 0.5px solid silver;
+}
+
+[b-54d67tl5f7] tbody td {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    text-overflow: ellipsis;
+}
+
+[b-54d67tl5f7] tbody tr {
+    background-color: rgba(0,0,0,0.04);
+}
+
+    [b-54d67tl5f7] tbody tr:nth-child(odd) {
+        background: rgba(255,255,255,0.4)
+    }

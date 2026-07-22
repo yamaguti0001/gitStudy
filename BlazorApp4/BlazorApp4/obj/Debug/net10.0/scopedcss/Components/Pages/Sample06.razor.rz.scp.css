@@ -1,0 +1,32 @@
+h3[b-hnyf0o53h2]{
+    font-size 30pt;
+    color: red;
+    background: #eeeeee;
+}
+
+[b-hnyf0o53h2] table {
+    min-width: 100%;
+}
+
+[b-hnyf0o53h2] thead {
+    background-color: #DDFFDD;
+}
+
+[b-hnyf0o53h2] tr{
+    border-bottom: 0.5px solid silver;
+}
+
+[b-hnyf0o53h2] tbody td{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width 0;
+    text-overflow: ellipsis;
+}
+
+[b-hnyf0o53h2] tbody tr{
+    background-color: rgba(0,0,0,0,0.04);
+}
+
+[b-hnyf0o53h2] tbody tr:nth-child(odd){
+    background: rgba(255,255,255,0.4)
+}

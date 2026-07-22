@@ -1,0 +1,38 @@
+/* CSS for Sample08 component */
+dl[b-m122t1xlaz] {
+}
+
+    dl dt[b-m122t1xlaz] {
+        float: left;
+    }
+
+    dl dd[b-m122t1xlaz] {
+        margin-left: 150px;
+    }
+
+[b-m122t1xlaz] table {
+    min-width: 100%;
+}
+
+[b-m122t1xlaz] thead {
+    background-color: #DDFFDD;
+}
+
+[b-m122t1xlaz] tr {
+    border-botton: 0.5px solid silver;
+}
+
+[b-m122t1xlaz] tbody td {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    text-overflow: ellipsis;
+}
+
+[b-m122t1xlaz] tbody tr {
+    background-color: rgba(0,0,0,0.04);
+}
+
+    [b-m122t1xlaz] tbody tr:nth-child(odd) {
+        background: rgba(255,255,255,0.4)
+    }

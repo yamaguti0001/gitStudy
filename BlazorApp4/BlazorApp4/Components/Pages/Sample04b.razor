@@ -1,0 +1,49 @@
+﻿@page "/Sample04b"
+@using BlazorApp4.Data
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Microsoft.EntityFrameworkCore
+
+@*アプリケーションサービス*@
+@inject IDbContextFactory<PubsDbContext> DbFactory
+
+<h3>Sample04b :大量ページング</h3>
+
+<div class="grid" tabindex="-1">
+    <QuickGrid ItemsProvider="@ItemsProvider" Virtualize="true" ItemSize="5">
+        <PropertyColumn Property="@(a => a.AuthorId)" Title="著者ID" />
+        <TemplateColumn Title="著者名">
+            @(context.AuthorFirstName) @(context.AuthorLastName)
+        </TemplateColumn>
+        <PropertyColumn Property="@(a => a.Phone)" Title="電話番号" />
+        <PropertyColumn Property="@(a => a.State)" Title="州" />
+        <TemplateColumn Title="契約有無">
+            <input type="checkbox" disabled checked="@(context.Contract)" />
+            @(context.Contract ? "契約あり" : "契約なし")
+        </TemplateColumn>
+    </QuickGrid>
+</div>
+
+
+@code {
+    private GridItemsProvider<Author>? ItemsProvider { get; set; }
+
+    private string? LogMessage { get; set; } //デバック用メッセージ
+
+    protected override void OnInitialized()
+    {
+        ItemsProvider = async request =>
+        {
+            //ここはデバック用のコード
+            LogMessage += "(" + request.StartIndex + " " + request.Count + ")";
+            StateHasChanged();
+
+            await using (var pubs = await DbFactory.CreateDbContextAsync())
+            {
+                var data = await pubs.Authors.Skip(request.StartIndex).Take(request.Count ?? 0).ToListAsync();
+                var totalCount = await pubs.Authors.CountAsync();
+                return GridItemsProviderResult.From(data, totalCount);
+            }
+
+        };
+    }
+}

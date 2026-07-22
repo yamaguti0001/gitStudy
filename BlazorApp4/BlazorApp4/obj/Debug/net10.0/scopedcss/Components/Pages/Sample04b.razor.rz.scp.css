@@ -1,0 +1,34 @@
+/* CSS for Sample04b component */
+
+.grid[b-flz7llocik] {
+    height: 10rem;
+    overflow-y: auto;
+}
+
+    .grid[b-flz7llocik]  table {
+        min-width: 100%;
+    }
+
+/*Sticky header while scrolling*/
+
+[b-flz7llocik] thead {
+    position: sticky;
+    top: 0;
+    background-color: #d8d8d8;
+    outline: 1px solid gray;
+    z-index: 1;
+}
+
+/*For virtuall grids, it's essential that all rows have the same know height */
+
+[b-flz7llocik] tr {
+    height: 30px;
+    border-bottom: 0.5px solid silver;
+}
+
+[b-flz7llocik] tbody td {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    text-overflow: ellipsis;
+}

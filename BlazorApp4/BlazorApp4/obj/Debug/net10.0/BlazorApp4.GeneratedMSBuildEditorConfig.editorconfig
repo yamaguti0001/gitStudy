@@ -1,0 +1,128 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp4
+build_property.RootNamespace = BlazorApp4
+build_property.ProjectDir = C:\datesource\gitStudy\BlazorApp4\BlazorApp4\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\datesource\gitStudy\BlazorApp4\BlazorApp4
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample01.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample02.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample03.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwMy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample04.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwNC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample05.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwNS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample08b.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwOGIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample09.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwOS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample10.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUxMC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y97violqbf
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-d0kz2ow9hc
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Layout/ReconnectModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uartx0izfa
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/AuthorsGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRob3JzR3JpZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-a2i0jozsh5
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample04b.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwNGIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-flz7llocik
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample06.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwNi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hnyf0o53h2
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample07.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwNy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vj6n3958vz
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample08.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUwOC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-m122t1xlaz
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample11.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUxMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-54d67tl5f7
+
+[C:/datesource/gitStudy/BlazorApp4/BlazorApp4/Components/Pages/Sample11b.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYW1wbGUxMWIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q67m76m4wa

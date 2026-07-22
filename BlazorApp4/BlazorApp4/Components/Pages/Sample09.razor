@@ -1,0 +1,26 @@
+﻿@page "/Sample09"
+@using BlazorApp4.Data
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Microsoft.EntityFrameworkCore
+
+@*アプリケーションサービス*@
+@inject IDbContextFactory<PubsDbContext> DbFactory
+
+<h3>Sample09:コンポーネント化</h3>
+
+<AuthorsGrid Authors="@authors" />
+@code {
+    //データバインドに使用する変数
+    private IQueryable<Author>? authors = null;
+
+    //ページ初期化時に呼び出されるイベントハンドラ
+    protected override async Task OnInitializedAsync()
+    {
+        await using (var pubs = await DbFactory.CreateDbContextAsync())
+        {
+            authors = (await pubs.Authors.ToListAsync()).AsQueryable();
+        }
+    }
+}
+
+
